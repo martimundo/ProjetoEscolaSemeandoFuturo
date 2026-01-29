@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+
 import {
   GraduationCap,
   Clock,
@@ -97,7 +98,7 @@ export const Home: React.FC = () => {
               <div className="absolute top-0 right-0 -mr-20 -mt-20 w-72 h-72 bg-brand-yellow opacity-20 rounded-full blur-3xl animate-pulse"></div>
               <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 bg-brand-blue opacity-20 rounded-full blur-3xl animate-pulse"></div>
               <img
-                src="/public/src/Crianças_Banner.png"
+                src="/images/Crianças_Banner.png"
                 alt="Crianças aprendendo e brincando"
                 className="relative rounded-3xl shadow-2xl z-10 w-full object-cover transform transition hover:scale-[1.01] duration-500 rounded-full"
               />
@@ -224,7 +225,7 @@ export const Home: React.FC = () => {
           <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/public/src/Professora_Ensinando.jpg"
+                src="/images/Professora_Ensinando.jpg"
                 alt="Professora ensinando"
                 className="rounded-2xl shadow-lg w-full"
               />
@@ -284,7 +285,7 @@ export const Home: React.FC = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="group relative overflow-hidden rounded-xl aspect-square cursor-pointer">
               <img
-                src="/public/src/infraestrutura_Sala01.jpg"
+                src="/images/infraestrutura_Sala01.jpg"
                 alt="Sala da TV"
                 className="w-full h-full object-cover transition duration-500 group-hover:scale-110"
               />
@@ -294,7 +295,7 @@ export const Home: React.FC = () => {
             </div>
             <div className="group relative overflow-hidden rounded-xl aspect-square cursor-pointer">
               <img
-                src="/public/src/infraestrutura_Sala02.jpg"
+                src="/images/infraestrutura_Sala02.jpg"
                 alt="Sala de Leitura"
                 className="w-full h-full object-cover transition duration-500 group-hover:scale-110"
               />
@@ -304,7 +305,7 @@ export const Home: React.FC = () => {
             </div>
             <div className="group relative overflow-hidden rounded-xl aspect-square cursor-pointer">
               <img
-                src="/public/src/infraestrutura_Sala03.jpg"
+                src="/images/infraestrutura_Sala03.jpg"
                 alt="Sala de Aula"
                 className="w-full h-full object-cover transition duration-500 group-hover:scale-110"
               />
@@ -314,7 +315,7 @@ export const Home: React.FC = () => {
             </div>
             <div className="group relative overflow-hidden rounded-xl aspect-square cursor-pointer">
               <img
-                src="/public/src/infraestrutura_Sala04.jpg"
+                src="/images/infraestrutura_Sala04.jpg"
                 alt="Sala do Sono"
                 className="w-full h-full object-cover transition duration-500 group-hover:scale-110"
               />
