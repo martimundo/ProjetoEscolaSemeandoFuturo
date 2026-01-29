@@ -63,6 +63,31 @@ html {
   /* mostra o menu */
 }
 
+/*********************BOTÕES*************************/
+.button-primary {
+  background-color: #255f5a;
+  color: #fff;
+}
+
+.button-primary:hover {
+  background-color: #16e646ff;
+  transform: scale(1.05);
+}
+
+.button-secondary {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.button-secondary:hover {
+  background-color: #1e7e34;
+  transform: scale(1.05);
+  /* Pequeno efeito de "zoom" ao passar o mouse */
+}
+
+/******************************************************/
+
+/****************************TOPO*******************/
 /* Estilizando o Navbar */
 .navbar {
   display: flex;
@@ -97,7 +122,7 @@ html {
 
 .nav-links a.active {
   text-decoration: none;
-  color: #000000;
+  color: #255f5a;
   background-color: #ffe082;
   padding: 10px;
   border-radius: 5px;
@@ -106,26 +131,22 @@ html {
 }
 
 .nav-links a:hover {
-  color: #28a745;
+  color: #0b2654ff;
 }
-
+/**************************** FIM TOPO*******************/
 /******************************************************/
 .section {
   padding: 60px 20px;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 30px;
 }
 
-.container-paragrafos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  width: 100%;
-}
+
+/****************************SEÇÃO HERO***************************************/
 
 .hero {
   display: flex;
@@ -139,9 +160,7 @@ html {
   padding: 20px;
 }
 
-.conteudo_hero {
-  border-radius: 5px;
-  max-width: 1200px;
+.conteudo_hero { 
   margin: 80px 0px 0px 80px;
 }
 
@@ -149,23 +168,22 @@ html {
   width: 600px;
   color: #255f5a;
   font-size: 36px;
+  font-weight: 900;
 }
 
 .hero p {
-  width: 450px;
-  color: #255f5a;
-  font-size: 18px;
-  margin-top: 10px;
+  width: 450px;  
+  font-size: 18px;  
 }
 
 .button {
-  width: 200px;
+  width: 300px;
+  align-items: center;
   justify-content: center;
-  margin: 20px;
   display: flex;
-  padding: 15px;
+  padding: 12px 24px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-weight: bold;
   font-size: 16px;
   transition: background-color 0.3s ease, transform 0.2s ease-in-out;
@@ -187,31 +205,9 @@ html {
   }
 }
 
-.button-primary {
-  background-color: #255f5a;
-  color: #fff;
-}
 
-.button-primary:hover {
-  background-color: #28a745;
-  transform: scale(1.05);
-}
+/***************SEÇÃO DE SOBRE********************/
 
-.button-secondary {
-  background-color: #28a745;
-  color: #fff;
-}
-
-.button-secondary:hover {
-  background-color: #1e7e34;
-  transform: scale(1.05);
-  /* Pequeno efeito de "zoom" ao passar o mouse */
-}
-
-/******************************************************/
-
-/*SEÇÃO DE SOBRE*/
-/******************************************************/
 .sobre_fundo {
   width: 100%;
   height: 100%;
@@ -220,14 +216,14 @@ html {
   border: none;
 }
 
-.sobre_nos{
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.sobre_nos {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .sobre_nos h2 {
   font-size: 2em;
@@ -245,21 +241,24 @@ html {
   animation: slideInLeft 0.8s ease-out;
 }
 
-.btn_sobrenos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    color: #ffffffff;
-    width: 200px;
-    padding: 10px;
-    border: 2px solid #255f5a;
-    border-radius: 5px;
-    text-decoration: none;
+.btn_sobrenos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: #ffffffff;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #255f5a;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
-.sobre strong {
-  color: #255f5a;
+.btn_sobrenos:hover {
+  background-color: #1e7e34;
+  color: #fff;
+  border: none;
+  
 }
 
 @keyframes slideInLeft {
@@ -280,7 +279,8 @@ html {
 /******************************************************/
 .diferenciais {
   margin-top: 30px;
-  background-color: #ffff;
+  width:1024px;
+  margin: 0 auto;
 }
 
 .diferenciais_bg {
@@ -344,55 +344,14 @@ html {
   font-weight: 100;
 }
 
-/*SEÇÃO DEIFERENCIAIS*/
-.cta {
-  background-color: #ffe082;
-  text-align: center;
-}
 
-.cta h2 {
-  color: #255f5a;
-}
-
-.cta h2 {
-  font-size: 2.2em;
-  margin-bottom: 20px;
-  color: #255f5a;
-}
-
-.cta p {
-  font-size: 1.5em;
-  margin: 30px;
-  color: #555;
-}
-
-.button-cta {
-  background-color: #255f5a;
-  color: #fff;
-  padding: 15px 30px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
-}
-
-.cta a::before {
-  content: "";
-  display: inline-block;
-  position: relative;
-  top: 8px;
-  width: 30px;
-  height: 30px;
-  background-image: url("/img/whatsapp.png");
-  background-size: cover;
-  margin-right: 10px;
-}
 
 /*METODOLOGIA HOME*/
 .section_metodologia {
   width: 100%;
-  background-color: #f3f3f3ff;
+  background-image: url("/img/background_principal_002.png");
+  background-size: cover;
+  position: relative;
 }
 .container_metodologia {
   width: 1200px;
@@ -419,8 +378,7 @@ html {
 .metodologia-intro p {
   width: 100%;
   text-align: center;
-  font-size: 16px;
-  color: gray;
+  font-size: 16px;  
   text-align: justify;
   margin-bottom: 20px;
 }
@@ -470,14 +428,16 @@ html {
   margin: 0 20px;
 }
 
-/*INFRAESTRUTURA*/
+/*************************INFRAESTRUTURA******************************************/
 
 .infraestrutura {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f4f4f4;
+  background-image: url("");
+  background-size: cover;
+  border: none;
 }
 
 .infraestrutura-container {
@@ -489,13 +449,7 @@ html {
   margin: 0 auto;
   padding: 20px;
 }
-.infraestrutura-container p {
-  font-size: 18px;
-  color: gray;
-  text-align: justify;
-  line-height: 1.6;
-  margin-top: 20px;
-}
+
 .infraestrutura-container h1 {
   width: 900px;
   color: #255f5a;
@@ -503,6 +457,15 @@ html {
   font-size: 2.5rem;
   margin-top: 20px;
 }
+
+.infraestrutura-container p {
+  font-size: 18px;
+  color: gray;
+  text-align: justify;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
 
 .conteudo_infraestrutura {
   display: flex;
@@ -538,6 +501,7 @@ html {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  
 }
 .container-galeria {
   width: 1024px;
@@ -569,7 +533,6 @@ html {
 .container_imagens img {
   margin: 10px;
   width: 400px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -577,20 +540,24 @@ html {
   box-shadow: 0 2px 8px 5px rgba(0, 0, 0, 0.1);
 }
 
-/*INFRAESTRUTURA*/
+/*****************************INFRAESTRUTURA*****************************************/
 
-
-/*PARCERIAS*/
+/********************************************PARCERIAS*******************************************/
 
 .container-parceria {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
+  background-image: url("/img/background_principal.png");
+  background-size: cover;
+  border: none;
 }
 
 .container-parceria h1 {
-  font-size: 2.5rem;
+  font-size: 36px;
   text-align: center;
   margin-bottom: 20px;
   color: #255f5a;
@@ -599,13 +566,12 @@ html {
 .container-parceria h2 {
   width: 900px;
   text-align: left;
-  font-size: 2rem;
+  font-size: 20px;
   margin-bottom: 40px;
-  color: gray;
-  font-weight: 400;
+  font-weight: 300;
 }
 
-.parceiros { 
+.parceiros {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -613,38 +579,54 @@ html {
 }
 
 .parceiros-conteudo {
-  max-width: 1024px;  
+  max-width: 1024px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   gap: 20px;
-  
 }
 .parceiros-conteudo p {
   margin: 10px 0;
-  color: gray;
-  font-size: 25px;
+  font-size: 18px;
   text-align: justify;
 }
 
 .parceiros-conteudo img {
-  max-width: 50%;
-  height: 300px;
+  max-width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 
-.aulas-estimulantes { 
+.parceiros-conteudo img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  
+}
+/********************************************AULAS ESTIMULANTES*******************************************/
+
+.aulas-estimulantes {
+  width: 1024px;
+  margin: 0 auto;
   text-align: center;
-   padding: 40px 20px;
+  padding: 40px 20px;
+  background-image: url("../img/Bg-home-1.webp");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 40px;
 }
 
 .aulas-titulo {
-  text-align: center;  
+  text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
   color: #255f5a;
 }
+
+/**************************CARDS*********************/
 .cards-conteudo {
   margin: 0 auto;
   width: 1240px;
@@ -663,7 +645,7 @@ html {
   border: 1px solid #eee;
   border-radius: 8px;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 5px 4px rgba(121, 255, 3, 0.1);
 }
 
 .card-conteudo {
@@ -676,7 +658,6 @@ html {
 .card-conteudo img {
   max-width: 100%;
   height: 300px;
-  
 }
 .card-conteudo span {
   font-weight: bold;
@@ -689,7 +670,6 @@ html {
   color: #255f5a;
   margin-bottom: 10px;
 }
-
 
 /*CONTATOS*/
 
@@ -917,8 +897,50 @@ html {
 .social-icons img {
   width: 15px;
   height: 15px;
+}/**************************CTA***********************/
+.cta {
+  background-color: #ffe082;
+  text-align: center;
 }
 
+.cta h2 {
+  color: #255f5a;
+}
+
+.cta h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #255f5a;
+}
+
+.cta p {
+  font-size: 18px;
+  margin: 30px;
+  color: #555;
+}
+
+.button-cta {
+  background-color: #255f5a;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.cta a::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  background-image: url("/img/whatsapp.png");
+  background-size: cover;
+  margin-right: 10px;
+}
 /*Botão whatsApp*/
 .whatsapp-btn {
   position: fixed;
@@ -1015,8 +1037,9 @@ footer span {
     width: 100% !important;
     margin: 0 auto;
   }
-
+  
   .hero {
+    width:1024px;
     display: flex;
     flex-direction: column-reverse;
     margin: 0 auto;
