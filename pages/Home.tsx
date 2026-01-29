@@ -173,7 +173,7 @@ export const Home: React.FC = () => {
               <a
                 href="https://wa.me/5511981948844?text=Olá%20quero%20agendar%20uma%20visita"
                 targe="_blank"
-                className="text-sm font-semibold text-brand-yellow hover:text-yellow-600"
+                className="text-sm font-semibold text-[#235f5b] hover:text-yellow-600"
               >
                 Agendar Visita &rarr;
               </a>
@@ -214,7 +214,7 @@ export const Home: React.FC = () => {
               </p>
               <a
                 href="https://wa.me/5511981948844?text=Olá%20quero%20saber%20mais%20sobre%20os%20horários%20disponível"
-                className="text-sm font-semibold text-brand-blue hover:text-blue-700"
+                className="text-sm font-semibold text-[#235f5b] hover:text-blue-700"
                 target="_blank"
               >
                 Ver Horários &rarr;
@@ -409,14 +409,14 @@ export const Home: React.FC = () => {
             <button
               onClick={prevTestimonial}
               className="absolute top-1/2 -left-4 md:-left-16 transform -translate-y-1/2 bg-white text-gray-400 hover:text-brand-green p-4 rounded-full shadow-lg transition-all hover:scale-110 border border-gray-100 hidden md:flex"
-              aria-label="Anterior"
+              aria-label="Botão Anterior"
             >
               <ChevronLeft size={28} />
             </button>
             <button
               onClick={nextTestimonial}
               className="absolute top-1/2 -right-4 md:-right-16 transform -translate-y-1/2 bg-white text-gray-400 hover:text-brand-green p-4 rounded-full shadow-lg transition-all hover:scale-110 border border-gray-100 hidden md:flex"
-              aria-label="Próximo"
+              aria-label="Botão Próximo"
             >
               <ChevronRight size={28} />
             </button>

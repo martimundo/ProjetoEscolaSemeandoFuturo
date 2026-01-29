@@ -53,8 +53,8 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
             <span className="flex items-center gap-1"><Mail size={14} /> semeandofuturo@gmail.com</span>
           </div>
           <div className="flex items-center gap-3">
-            <a href="https://www.facebook.com/escolasemeandoofuturocotia" target="_blank" rel="noreferrer" className="hover:text-brand-yellow transition"><Facebook size={14} /></a>
-            <a href="https://instagram.com/semeandofuturocotia" target="_blank" rel="noreferrer" className="hover:text-brand-yellow transition"><Instagram size={14} /></a>
+            <a href="https://www.facebook.com/escolasemeandoofuturocotia" target="_blank" rel="noreferrer" className="hover:text-brand-yellow transition" arial-label="Facebook"><Facebook size={14} /></a>
+            <a href="https://instagram.com/semeandofuturocotia" target="_blank" rel="noreferrer" className="hover:text-brand-yellow transition" arial-label="Facebook"><Instagram size={14} /></a>
           </div>
         </div>
       </div>
@@ -184,8 +184,8 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
                 Preparando as crianças para um futuro brilhante com amor.
               </p>
               <div className="flex gap-4">
-                <a href="https://www.facebook.com/escolasemeandoofuturocotia"target="_blank" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-brand-blue transition-colors"><Facebook size={18} /></a>
-                <a href="https://instagram.com/semeandofuturocotia" target="blank" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors"><Instagram size={18} /></a>                
+                <a href="https://www.facebook.com/escolasemeandoofuturocotia"target="_blank" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-brand-blue transition-colors" arial-label="Facebook"><Facebook size={18} /></a>
+                <a href="https://instagram.com/semeandofuturocotia" target="blank" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors" arial-label="Instagram"><Instagram size={18} /></a>                
               </div>
             </div>
 
