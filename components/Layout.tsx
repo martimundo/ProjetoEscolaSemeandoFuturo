@@ -69,7 +69,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
           {/* Logo Placeholder */}
           <Link to="/" className="flex items-center gap-2 group" onClick={closeMenu}>
             <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center text-white font-bold text-xl group-hover:rotate-12 transition-transform lg:w-20 md:w-64 w-32">
-               <img src="/pages/src/Logo_Semeando_FuturoSemFundo.png" alt="logo da escola semeando o futuro" srcset=""/>
+               <img src="../public/src/Logo_Semeando_FuturoSemFundo.png" alt="logo da escola semeando o futuro" srcset=""/>
             </div>
             <div className="leading-tight">
               <h1 className="text-lg md:text-xl font-bold text-[#235f5b]">Semeando</h1>
@@ -167,7 +167,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
         className="fixed bottom-6 right-6 z-40 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 hover:scale-110 transition-all duration-300 animate-bounce"
         aria-label="Contato Via WhatsApp"
       >
-        <img src="/pages/src/whatsapp.png" alt="WhatsApp" className="w-10 md:w-10 lg:w-10 h-10" />
+        <img src="../public/src/whatsapp.png" alt="WhatsApp" className="w-10 md:w-10 lg:w-10 h-10" />
       </a>
 
       {/* Footer */}
@@ -177,7 +177,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
             {/* About */}
             <div>
               <div className="flex items-center gap-2 mb-6">
-                <div className="w-10 h-10 bg-brand-green rounded-full flex items-center justify-center text-white font-bold lg:w-20 md:w-64 w-32"><img src="/pages/src/Logo_Semeando_FuturoSemFundo.png" alt="logo da escola semeando o futuro" srcset=""/></div>
+                <div className="w-10 h-10 bg-brand-green rounded-full flex items-center justify-center text-white font-bold lg:w-20 md:w-64 w-32"><img src="../public/src/Logo_Semeando_FuturoSemFundo.png" alt="logo da escola semeando o futuro" srcset=""/></div>
                 <h3 className="text-xl font-bold text-white">Semeando Futuro</h3>
               </div>
               <p className="text-sm leading-relaxed mb-6">

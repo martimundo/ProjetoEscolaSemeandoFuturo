@@ -31,7 +31,7 @@ export const About: React.FC = () => {
                </div>
             </div>
             <div className="relative">
-                <img src="/pages/src/Diretora_Daniela.png" alt="Foto da Diretora da Escola" className="rounded-3xl shadow-xl w-full" />
+                <img src="../public/src/Diretora_Daniela.png" alt="Foto da Diretora da Escola" className="rounded-3xl shadow-xl w-full" />
                 <div className="absolute -bottom-6 -left-6 bg-[#235f5b] text-white p-6 rounded-xl shadow-lg hidden md:block">
                    <p className="font-bold text-2xl">Desde 2009</p>
                    <p className="text-sm opacity-90">Construindo sonhos</p>

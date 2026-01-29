@@ -27,7 +27,7 @@ export const Support: React.FC = () => {
                         </p>
                     </div>
                     <div className="bg-gray-100 relative h-64 lg:h-auto">
-                        <img src="/pages/src/monitoramento.jpg" alt="Sistema de Monitoramento" className="w-full h-full object-cover" />
+                        <img src="../public/src/monitoramento.jpg" alt="Sistema de Monitoramento" className="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>
