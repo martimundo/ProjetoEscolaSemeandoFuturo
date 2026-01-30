@@ -65,23 +65,25 @@ export const About: React.FC = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="py-20 bg-gradient-to-r from-brand-green to-green-400 text-white text-center mt-20">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Dê o Próximo Passo Rumo ao Futuro!</h2>
-          <p className="text-lg text-blue-100 mb-8">
-            Agende agora mesmo uma visita para conhecer de perto a Escola Semeando Futuro. 
-            Descubra nosso ambiente acolhedor e nossa equipe dedicada.
-          </p>
-          <a 
-            href="https://wa.me/5511981948844" 
-            target="_blank" 
-            rel="noreferrer"
-            className="inline-block bg-white text-brand-blue px-10 py-4 rounded-full font-bold shadow-lg hover:bg-green-100 transition-colors"
-          >
-            Agendar Visita Agora
-          </a>
+         <div className="mt-20 bg-gradient-to-r from-brand-green to-teal-600 rounded-3xl p-10 lg:p-16 text-center text-white relative overflow-hidden shadow-2xl">
+             <div className="relative z-10 max-w-3xl mx-auto">
+                <h2 className="text-3xl lg:text-4xl font-bold mb-6">Faça parte da nossa família</h2>
+                <p className="text-green-50 mb-10 text-lg">
+                    Estamos ansiosos para apresentar nossa escola e contar mais sobre como podemos contribuir para o futuro do seu filho.
+                </p>
+                <a 
+                    href="https://wa.me/5511981948844" 
+                    target="_blank"
+                    rel="noreferrer" 
+                    className="inline-block bg-white text-brand-green px-10 py-4 rounded-full font-bold hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105"
+                >
+                    Agendar Visita Agora
+                </a>
+             </div>
+             {/* Decorative elements */}
+             <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-10 rounded-full -mr-20 -mt-20 blur-3xl"></div>
+             <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-yellow opacity-10 rounded-full -ml-20 -mb-20 blur-3xl"></div>
         </div>
-      </div>
     </div>
   );
 };
