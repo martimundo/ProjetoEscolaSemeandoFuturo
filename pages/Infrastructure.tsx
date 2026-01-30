@@ -6,32 +6,32 @@ const galleryItems = [
   {
     title: "Salas de Aula Estimulantes",
     description: "Ambientes climatizados, com mobiliário ergonômico e materiais pedagógicos ao alcance das crianças.",
-    image: "/public/images/Infraestrutu_SF001.jpeg"
+    image: "/images/Infraestrutu_SF001.jpeg"
   },
   {
     title: "Sala do Sono",
     description: "Um cantinho tranquilo, com iluminação suave e conforto térmico para o descanso necessário.",
-    image: "/public/images/Infraestrutura_SF002.jpeg"
+    image: "/images/Infraestrutura_SF002.jpeg"
   },
   {
     title: "Sala de Aula Iluminada",
     description: "Uma sala de aula iluminada favorece para o bom aprendizado dos alunos.",
-    image: "/public/images/infraestrutura_SF003.jpeg"
+    image: "/images/infraestrutura_SF003.jpeg"
   },
   {
     title: "Sala da TV",
     description: "Um cantinho tranquilo, onde nossas crianças assistem desenhos e contos educacionais.",
-    image: "/public/images/infraestrutura_SF004.jpeg"
+    image: "/images/infraestrutura_SF004.jpeg"
   },
   {
     title: "Sala de Leitura",
     description: "Espaço dedicado à imaginação, repleto de livros infantis que despertam o amor pela leitura.",
-    image: "/public/images/infraestrutura_Sala02.jpg"
+    image: "/images/infraestrutura_Sala02.jpg"
   },
   {
     title: "Espaço Baby",
     description: "Berçário equipado com piso emborrachado e brinquedos sensoriais para os primeiros passos.",
-    image: "/public/images/infraestrutura_SF005.jpeg"
+    image: "/images/infraestrutura_SF005.jpeg"
   }
 ];
 

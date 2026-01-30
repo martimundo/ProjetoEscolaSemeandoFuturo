@@ -27,7 +27,7 @@ export const Methodology: React.FC = () => {
         {/* Core Philosophy */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
             <div className="relative shadow-lg shadow-blue-500/50 rounded-3xl">
-                <img src="/public/images/Socio_Construtivista.webp" alt="Crianças interagindo" className="rounded-3xl shadow-xl w-full transform rotate-1 hover:rotate-0 transition duration-500 " />
+                <img src="/images/Socio_Construtivista.webp" alt="Crianças interagindo" className="rounded-3xl shadow-xl w-full transform rotate-1 hover:rotate-0 transition duration-500 " />
                 <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-yellow max-w-xs hidden md:block">
                    <p className="text-gray-800 italic font-medium">"O saber que se constrói é o saber que permanece."</p>
                 </div>
