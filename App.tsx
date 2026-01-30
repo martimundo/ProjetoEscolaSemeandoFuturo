@@ -7,6 +7,8 @@ import { Support } from "./pages/Support";
 import { Contact } from "./pages/Contact";
 import { Terms } from "./pages/Terms";
 import { Privacy } from "./pages/Privacy";
+import { Methodology } from "./pages/Methodology";
+import { Infrastructure } from './pages/Infrastructure';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<About />} />
+          <Route path="/metodologia" element={<Methodology />} />
+          <Route path="/infraestrutura" element={<Infrastructure />} />
           <Route path="/suporte" element={<Support />} />
           <Route path="/contato" element={<Contact />} />
           <Route path="/termos" element={<Terms />} />
